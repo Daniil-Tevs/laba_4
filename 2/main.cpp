@@ -12,11 +12,8 @@ int main()
     ofstream out("output.txt");
     in>>n;
     int* mass = new int[n];
-    while(in)
-    {
+    for(i=0;i<n;i++)
         in>>mass[i];
-        i++;
-    }
     for(j=0;j<t;j++)
     {
         if(mass[j]<=0)
