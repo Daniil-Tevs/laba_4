@@ -54,5 +54,6 @@ int main()
     }
     else
         cout<<"Error: nekorektnie dannie";
+    delete[] mass;
     return 0;
 }
