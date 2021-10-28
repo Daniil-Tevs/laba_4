@@ -45,7 +45,6 @@ int main()
             out<<mass[i][j]<<" ";
         out<<endl;
     }
-    for(i=0;i<n;i++)
-        delete mass[i];
+    delete[] mass;
     return 0;
 }
